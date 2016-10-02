@@ -1,0 +1,80 @@
+{
+  "name": "react-native-scrollview",
+  "version": "0.0.1-alpha.0",
+  "description": "ScrollView impl in pure JavaScript",
+  "main": "index",
+  "jsnext:main": "index",
+  "files": [
+    "*.md",
+    "*.js"
+  ],
+  "author": "Jake Murzy <jake@murzy>",
+  "license": "MIT",
+  "homepage": "https://github.com/jmurzy/react-native-scrollview",
+  "tags": [
+    "react",
+    "router",
+    "native",
+    "navigation"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "native",
+    "scrollview",
+    "listview",
+    "UIScrollView",
+    "scroll",
+    "ios",
+    "andorid",
+    "react-component"
+  ],
+  "contributors": [
+    {
+      "name": "Jake Murzy",
+      "email": "jake@murzy"
+    }
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmurzy/react-native-scrollview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmurzy/react-native-scrollview/issues"
+  },
+  "peerDependencies": {
+    "react-native": "0.28.0-rc.0"
+  },
+  "dependencies": {
+    "invariant": "^2.2.1",
+    "warning": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.8.0",
+    "babel-eslint": "^6.0.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-react-native": "^1.9.0",
+    "chai": "^3.5.0",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-flowtype": "^2.2.7",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.3.0",
+    "eslint-plugin-react": "^5.1.1",
+    "flow-bin": "^0.25.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "react": "^15.1.0",
+    "react-native": "0.28.0-rc.0",
+    "rimraf": "^2.5.2",
+    "run-sequence": "^1.2.1"
+  }
+}
